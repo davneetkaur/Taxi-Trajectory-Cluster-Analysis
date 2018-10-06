@@ -1,0 +1,55 @@
+body,
+html {
+	height: 100%;
+	padding-top: 25px;
+	width: 100%; 
+	margin: 0; 
+}
+
+#map {
+	width: 70%;
+	height: 100%;
+	float: left;
+	z-index: 1;
+}
+
+#rightside {
+	width: 30%;
+	height: 100%;
+	position: fixed; 
+	background-color: snow;
+	left: 70%;
+}
+
+.navbar-default {
+	background-color:rgb(8, 40, 83);
+	background-image: none;
+	background-repeat: no-repeat;
+   }
+
+.label {
+	color : white;
+	font-size: 15px;
+}
+
+.rect {
+	fill : snow;
+}
+
+.text {
+	text-anchor : middle;
+	font : sans-serif;
+	font-size : 20px;
+	fill : rgb(8, 40, 83);		
+}
+
+.toolTip {
+	position: absolute;
+	display: none;
+	min-width: 30px;
+	height: auto;
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid rgb(8, 40, 83);
+	padding: 14px;
+	text-align: center;
+  }
